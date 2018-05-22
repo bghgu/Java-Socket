@@ -51,8 +51,24 @@
 
 ## 구성
 
-* 단방향 tcp (서버 => 클라이언트)
-* 양방향 tcp (서버 < = >클라이언트)
+* Simplex Tcp Server
+* Half Duplex Tcp Server
+* Echo Tcp Server
+* Thread pool Tcp Server
 
-   
+-----
+
+* Iterative Tcp Server
+* UDP Server 
+* FTP Server
+
+## 출처
+
+* http://gangzzang.tistory.com/entry/Java-%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D
+* http://nowonbun.tistory.com/315
+
+* http://jdm.kr/blog/154
+* https://github.com/bghgu/TCP-IP
+* https://github.com/bghgu/CS/tree/master/Network%20Programming
+
 
