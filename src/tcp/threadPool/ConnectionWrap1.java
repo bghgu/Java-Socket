@@ -1,4 +1,4 @@
-package tcp.duplex.threadPool;
+package tcp.threadPool;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -12,11 +12,11 @@ import java.util.Date;
 /**
  * 소켓 처리용 래퍼 클래스
  */
-public class ConnectionWrap implements Runnable {
+public class ConnectionWrap1 implements Runnable {
 
     private Socket socket = null;
 
-    public ConnectionWrap(Socket socket) {
+    public ConnectionWrap1(Socket socket) {
         this.socket = socket;
     }
 

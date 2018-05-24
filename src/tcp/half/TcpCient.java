@@ -1,4 +1,4 @@
-package tcp.duplex.half;
+package tcp.half;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

@@ -1,4 +1,4 @@
-package tcp.duplex.threadPool;
+package tcp.threadPool;
 
 import java.io.DataInputStream;
 import java.net.InetSocketAddress;

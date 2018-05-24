@@ -1,4 +1,4 @@
-package tcp.duplex.echo;
+package tcp.echo;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

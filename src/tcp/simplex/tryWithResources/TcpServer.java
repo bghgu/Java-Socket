@@ -36,13 +36,13 @@ public class TcpServer {
 
                 dataOutputStream.writeUTF(message);
 
-                data = new byte[2];
+                /*data = new byte[2];
                 //inputStream.read(data, 0, data.length);
                 String res = dataInputStream.readUTF();
 
                 message = new String(data);
                 String out = String.format("receive - %s", res);
-                System.out.println(out);
+                System.out.println(out);*/
             }
         }catch (Throwable e) {
             e.printStackTrace();

@@ -1,10 +1,9 @@
-package tcp.duplex.echo;
+package tcp.echo;
 
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 
 /**
  * Created by ds on 2018-05-21.
