@@ -1,4 +1,4 @@
-package tcp.thread;
+package thread;
 
 /**
  * Created by ds on 2018-05-24.
