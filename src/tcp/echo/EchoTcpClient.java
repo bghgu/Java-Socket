@@ -19,14 +19,13 @@ public class EchoTcpClient {
             try (
                     DataOutputStream dataOutputStream = new DataOutputStream(client.getOutputStream());
                     DataInputStream dataInputStream = new DataInputStream(client.getInputStream())
-                    ) {
+            ) {
                 String res;
-                while (true) {
+                do {
                     res = dataInputStream.readUTF();
                     System.out.println(res);
                     dataOutputStream.writeUTF(res);
-                    if (res.equals("Q") || res.equals("q")) break;
-                }
+                } while (!res.equals("Q") && !res.equals("q"));
             }
         } catch (Throwable e) {
             e.printStackTrace();
